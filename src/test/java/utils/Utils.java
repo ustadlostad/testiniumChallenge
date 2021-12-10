@@ -2,12 +2,11 @@ package utils;
 
 import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvException;
-import com.opencsv.exceptions.CsvValidationException;
 
-import java.io.*;
-import java.util.ArrayList;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.List;
-import java.util.StringTokenizer;
 
 public class Utils {
 
@@ -17,13 +16,11 @@ public class Utils {
 
         List<String[]> val = csvReader.readAll();
 
-        String data = val.get(row)[column];
-
-        return data;
+        return val.get(row)[column];
     }
 
     public void writeTxt(String text) throws IOException {
-        FileWriter writer = new FileWriter("files/itemData.txt",true);
+        FileWriter writer = new FileWriter("files/itemData.txt", true);
         writer.write(text + "\n");
         writer.close();
     }

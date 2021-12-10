@@ -3,7 +3,6 @@ package pages;
 import com.batur.testiniumchallenge.PageSetup;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -30,24 +29,24 @@ public class LoginPage extends PageSetup {
     By mail_label = By.xpath(mail_label_xpath);
 
     //Page Methods
-    public void setEmail(String email){
-        setText(email,email_textBox);
+    public void setEmail(String email) {
+        setText(email, email_textBox);
     }
 
-    public void setPassword(String password){
-        setText(password,password_textBox);
+    public void setPassword(String password) {
+        setText(password, password_textBox);
     }
 
-    public void clickLoginButton(){
+    public void clickLoginButton() {
         click(login_button);
     }
 
     public void checkLoginStatus(String email) throws InterruptedException {
         hover(my_account_label);
-        Assert.assertEquals(getText(mail_label),email);
+        Assert.assertEquals(getText(mail_label), email);
     }
 
-    public void checkMainPage(){
+    public void checkMainPage() {
         checkElementIsVisible(home_page_wrapper);
     }
 }

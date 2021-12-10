@@ -13,33 +13,33 @@ public class ItemDetailPage extends PageSetup {
 
     //Page Objects
     String item_name_xpath = "//div[@class = 'pr-in-cn']//h1//span";
-    String item_price_xpath= "//div[@class = 'product-price-container']//span[@class = 'prc-dsc']";
+    String item_price_xpath = "//div[@class = 'product-price-container']//span[@class = 'prc-dsc']";
     String add_to_basket_button_xpath = "//button[@class = 'add-to-basket']";
     String my_basket_button_xpath = "(//p[text() = \"Sepetim\"])[1]";
 
     By item_name = By.xpath(item_name_xpath);
-    By item_price =  By.xpath(item_price_xpath);
+    By item_price = By.xpath(item_price_xpath);
     By add_to_basket_button = By.xpath(add_to_basket_button_xpath);
     By my_basket_button = By.xpath(my_basket_button_xpath);
 
     //Page Methods
-    public String getItemName() throws InterruptedException {
+    public String getItemName(){
         return getText(item_name);
     }
 
-    public String  getItemPrice() throws InterruptedException {
+    public String getItemPrice(){
         return getText(item_price);
     }
 
-    public void switchBrowserTab(){
+    public void switchBrowserTab() {
         switchTab();
     }
 
-    public void addItemToTheBasket(){
+    public void addItemToTheBasket() {
         click(add_to_basket_button);
     }
 
-    public void goToBasket(){
+    public void goToBasket() {
         click(my_basket_button);
     }
 

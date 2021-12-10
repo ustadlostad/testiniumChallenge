@@ -20,10 +20,11 @@ public class LandingPage extends PageSetup {
     By popup_close_button = By.cssSelector(popup_close_button_css_selector);
 
     //Page Methods
-    public void closePopupWindow(){
+    public void closePopupWindow() {
         click(popup_close_button);
     }
-    public void clickLoginButton(){
+
+    public void clickLoginButton() {
         click(login_button);
     }
 }

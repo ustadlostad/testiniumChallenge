@@ -2,12 +2,8 @@ package tests;
 
 import com.batur.testiniumchallenge.TestSetup;
 import com.opencsv.exceptions.CsvException;
-import jdk.jshell.execution.Util;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.ItemDetailPage;
 import utils.Utils;
 
 import java.io.IOException;
@@ -26,15 +22,15 @@ public class Tests extends TestSetup {
         landingPage.navigate("https://www.trendyol.com");
         landingPage.closePopupWindow();
         landingPage.clickLoginButton();
-        loginPage.setEmail(utils.readCsv(0,0));
-        loginPage.setPassword(utils.readCsv(0,1));
+        loginPage.setEmail(utils.readCsv(0, 0));
+        loginPage.setPassword(utils.readCsv(0, 1));
         loginPage.clickLoginButton();
         loginPage.checkLoginStatus("Baturturkmen@Hotmail.Com");
         loginPage.checkMainPage();
     }
 
     @Test(priority = 2)
-    public void addItemToBasket() throws IOException, InterruptedException {
+    public void addItemToBasket() throws IOException{
         mainPage.searchAnItem("Bilgisayar");
         listPage.selectRandomItem();
         itemDetailPage.switchBrowserTab();
@@ -47,10 +43,10 @@ public class Tests extends TestSetup {
     }
 
     @Test(priority = 3)
-    public void compareItemDetails() throws InterruptedException {
+    public void compareItemDetails(){
         itemBasketName = basketPage.getItemBasketName();
         itemBasketPrice = basketPage.getItemBasketPrice();
-        Assert.assertEquals(itemDetailPageName,itemBasketName);
-        Assert.assertEquals(itemDetailPagePrice,itemBasketPrice);
+        Assert.assertEquals(itemDetailPageName, itemBasketName);
+        Assert.assertEquals(itemDetailPagePrice, itemBasketPrice);
     }
 }

@@ -18,7 +18,7 @@ public class ListPage extends PageSetup {
     By items = By.xpath(items_xpath);
 
     //Page Methods
-    public void selectRandomItem(){
+    public void selectRandomItem() {
         selectRandomObjectAndClick(items);
     }
 }

@@ -21,11 +21,11 @@ public class BasketPage extends PageSetup {
     By item_basket_price = By.xpath(item_basket_price_xpath);
 
     //Page Methods
-    public String getItemBasketName() throws InterruptedException {
-        return getAttribute(item_name,"title");
+    public String getItemBasketName(){
+        return getAttribute(item_name, "title");
     }
 
-    public String getItemBasketPrice() throws InterruptedException {
+    public String getItemBasketPrice(){
         return getText(item_basket_price);
     }
 

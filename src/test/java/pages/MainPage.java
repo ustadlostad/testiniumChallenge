@@ -15,16 +15,13 @@ public class MainPage extends PageSetup {
     //Page Elements
     String search_bar_xpath = "//input[@class = 'search-box']";
 
-    By search_bar = By.xpath(search_bar_xpath   );
+    By search_bar = By.xpath(search_bar_xpath);
 
     //Page Methods
-    public void searchAnItem(String item){
-        setText(item,search_bar);
+    public void searchAnItem(String item) {
+        setText(item, search_bar);
         pressEnter(search_bar);
     }
-
-
-
 
 
 }

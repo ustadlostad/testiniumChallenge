@@ -3,12 +3,13 @@ package pages;
 import com.batur.testiniumchallenge.PageSetup;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LandingPage extends PageSetup {
 
-    public LandingPage(WebDriver driver, WebDriverWait wait) {
-        super(driver, wait);
+    public LandingPage(WebDriver driver, WebDriverWait wait, Actions action) {
+        super(driver, wait, action);
     }
 
     //Page Elements

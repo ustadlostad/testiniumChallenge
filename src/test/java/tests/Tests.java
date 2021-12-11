@@ -50,4 +50,14 @@ public class Tests extends TestSetup {
         Assert.assertTrue(itemBasketPrice.contains(itemDetailPagePrice));
         Assert.assertTrue(itemDetailPageName.contains(itemBasketName));
     }
+
+    @Test(priority = 4)
+    public void increaseAndCheckItemCount() throws InterruptedException {
+        Assert.assertEquals(basketPage.increaseItemCountAndGetItemCount(),"2");
+    }
+
+    @Test(priority = 5)
+    public void deleteItemFromBasketAndCheck(){
+        Assert.assertEquals(basketPage.deleteItemFromBasket(),"Sepetinde ürün bulunmamaktadır.");
+    }
 }

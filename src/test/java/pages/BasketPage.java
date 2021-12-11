@@ -22,11 +22,11 @@ public class BasketPage extends PageSetup {
 
     //Page Methods
     public String getItemBasketName(){
-        return getAttribute(item_name, "title");
+        return getAttribute(item_name,"title");
     }
 
     public String getItemBasketPrice(){
-        return getText(item_basket_price);
+        return getAttribute(item_basket_price,"textContent");
     }
 
 }

@@ -1,1 +1,25 @@
-{"uuid":"7d96b2ef-b175-4b12-98e3-81341e0bbdea","name":"com.batur.testiniumchallenge.TestSetup.beforeMethod","children":["61fec2b7-da9a-4ae7-8171-760bf615092e"],"description":"","befores":[{"name":"beforeMethod","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1638921914104,"stop":1638921914109}],"afters":[],"links":[],"start":1638921914104,"stop":1638921914109}
+{
+  "uuid": "7d96b2ef-b175-4b12-98e3-81341e0bbdea",
+  "name": "com.batur.testiniumchallenge.TestSetup.beforeMethod",
+  "children": [
+    "61fec2b7-da9a-4ae7-8171-760bf615092e"
+  ],
+  "description": "",
+  "befores": [
+    {
+      "name": "beforeMethod",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638921914104,
+      "stop": 1638921914109
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1638921914104,
+  "stop": 1638921914109
+}

@@ -12,8 +12,8 @@ public class ItemDetailPage extends PageSetup {
     }
 
     //Page Objects
-    String item_name_xpath = "//div[@class = 'pr-in-cn']//h1//span";
-    String item_price_xpath = "//div[@class = 'product-price-container']//span[@class = 'prc-dsc']";
+    String item_name_xpath = "//div[@class = 'pr-in-cn']//h1";
+    String item_price_xpath = "(//div[@class = 'product-price-container']//span)[last()]";
     String add_to_basket_button_xpath = "//button[@class = 'add-to-basket']";
     String my_basket_button_xpath = "(//p[text() = \"Sepetim\"])[1]";
 

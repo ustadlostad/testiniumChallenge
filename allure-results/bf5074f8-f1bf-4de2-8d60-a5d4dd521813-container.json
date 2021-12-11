@@ -1,1 +1,36 @@
-{"uuid":"bf5074f8-f1bf-4de2-8d60-a5d4dd521813","name":"tests.LoginTest","children":["39df0b28-a1fa-4105-bf53-a82dd4c88b69"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1638919305682,"stop":1638919310790}],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1638919337096,"stop":1638919337205}],"links":[],"start":1638919305640,"stop":1638919337208}
+{
+  "uuid": "bf5074f8-f1bf-4de2-8d60-a5d4dd521813",
+  "name": "tests.LoginTest",
+  "children": [
+    "39df0b28-a1fa-4105-bf53-a82dd4c88b69"
+  ],
+  "befores": [
+    {
+      "name": "setup",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638919305682,
+      "stop": 1638919310790
+    }
+  ],
+  "afters": [
+    {
+      "name": "tearDown",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638919337096,
+      "stop": 1638919337205
+    }
+  ],
+  "links": [],
+  "start": 1638919305640,
+  "stop": 1638919337208
+}

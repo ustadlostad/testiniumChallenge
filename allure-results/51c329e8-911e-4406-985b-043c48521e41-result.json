@@ -1,1 +1,68 @@
-{"name":"login","status":"broken","statusDetails":{"known":false,"muted":false,"flaky":false,"message":"java.lang.NullPointerException","trace":"java.lang.NullPointerException\n\tat com.batur.testiniumchallenge.PageSetup.navigate(PageSetup.java:19)\n\tat tests.LoginTest.login(LoginTest.java:18)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n"},"stage":"finished","steps":[],"attachments":[],"parameters":[{"name":"browser","value":"chrome"}],"start":1638590034035,"stop":1638590034038,"uuid":"51c329e8-911e-4406-985b-043c48521e41","historyId":"1a9f67dcceeaa939dee1902df1aa93b6","fullName":"tests.LoginTest.login","labels":[{"name":"package","value":"tests.LoginTest"},{"name":"testClass","value":"tests.LoginTest"},{"name":"testMethod","value":"login"},{"name":"parentSuite","value":"TestiniumChallenge"},{"name":"suite","value":"Login"},{"name":"subSuite","value":"tests.LoginTest"},{"name":"host","value":"Baturs-MacBook-Pro.local"},{"name":"thread","value":"4419@Baturs-MacBook-Pro.local.TestNG-test=Login-1(14)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[]}
+{
+  "name": "login",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "java.lang.NullPointerException",
+    "trace": "java.lang.NullPointerException\n\tat com.batur.testiniumchallenge.PageSetup.navigate(PageSetup.java:19)\n\tat tests.LoginTest.login(LoginTest.java:18)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "browser",
+      "value": "chrome"
+    }
+  ],
+  "start": 1638590034035,
+  "stop": 1638590034038,
+  "uuid": "51c329e8-911e-4406-985b-043c48521e41",
+  "historyId": "1a9f67dcceeaa939dee1902df1aa93b6",
+  "fullName": "tests.LoginTest.login",
+  "labels": [
+    {
+      "name": "package",
+      "value": "tests.LoginTest"
+    },
+    {
+      "name": "testClass",
+      "value": "tests.LoginTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "login"
+    },
+    {
+      "name": "parentSuite",
+      "value": "TestiniumChallenge"
+    },
+    {
+      "name": "suite",
+      "value": "Login"
+    },
+    {
+      "name": "subSuite",
+      "value": "tests.LoginTest"
+    },
+    {
+      "name": "host",
+      "value": "Baturs-MacBook-Pro.local"
+    },
+    {
+      "name": "thread",
+      "value": "4419@Baturs-MacBook-Pro.local.TestNG-test=Login-1(14)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

@@ -4,6 +4,7 @@ import com.batur.testiniumchallenge.TestSetup;
 import com.opencsv.exceptions.CsvException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 import utils.Utils;
 
 import java.io.IOException;
@@ -46,7 +47,7 @@ public class Tests extends TestSetup {
     public void compareItemDetails(){
         itemBasketName = basketPage.getItemBasketName();
         itemBasketPrice = basketPage.getItemBasketPrice();
-        Assert.assertEquals(itemDetailPageName, itemBasketName);
-        Assert.assertEquals(itemDetailPagePrice, itemBasketPrice);
+        Assert.assertTrue(itemBasketPrice.contains(itemDetailPagePrice));
+        Assert.assertTrue(itemDetailPageName.contains(itemBasketName));
     }
 }

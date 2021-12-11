@@ -1,1 +1,66 @@
-{"name":"dummyTest","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","steps":[],"attachments":[],"parameters":[{"name":"browser","value":"chrome"}],"start":1638585747639,"stop":1638585747643,"uuid":"e4388a5f-896c-4bb8-a706-1a0ecd4c34d9","historyId":"6cf81146777fed562874dbac8ab27f61","fullName":"tests.DummyTest.dummyTest","labels":[{"name":"package","value":"tests.DummyTest"},{"name":"testClass","value":"tests.DummyTest"},{"name":"testMethod","value":"dummyTest"},{"name":"parentSuite","value":"TestiniumChallenge"},{"name":"suite","value":"Nopackage"},{"name":"subSuite","value":"tests.DummyTest"},{"name":"host","value":"Baturs-MacBook-Pro.local"},{"name":"thread","value":"3880@Baturs-MacBook-Pro.local.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[]}
+{
+  "name": "dummyTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "browser",
+      "value": "chrome"
+    }
+  ],
+  "start": 1638585747639,
+  "stop": 1638585747643,
+  "uuid": "e4388a5f-896c-4bb8-a706-1a0ecd4c34d9",
+  "historyId": "6cf81146777fed562874dbac8ab27f61",
+  "fullName": "tests.DummyTest.dummyTest",
+  "labels": [
+    {
+      "name": "package",
+      "value": "tests.DummyTest"
+    },
+    {
+      "name": "testClass",
+      "value": "tests.DummyTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "dummyTest"
+    },
+    {
+      "name": "parentSuite",
+      "value": "TestiniumChallenge"
+    },
+    {
+      "name": "suite",
+      "value": "Nopackage"
+    },
+    {
+      "name": "subSuite",
+      "value": "tests.DummyTest"
+    },
+    {
+      "name": "host",
+      "value": "Baturs-MacBook-Pro.local"
+    },
+    {
+      "name": "thread",
+      "value": "3880@Baturs-MacBook-Pro.local.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

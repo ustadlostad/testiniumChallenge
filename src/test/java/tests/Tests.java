@@ -26,7 +26,7 @@ public class Tests extends TestSetup {
         loginPage.setEmail(utils.readCsv(0, 0));
         loginPage.setPassword(utils.readCsv(0, 1));
         loginPage.clickLoginButton();
-        loginPage.checkLoginStatus("Baturturkmen@Hotmail.Com");
+        loginPage.checkLoginStatus("Baturtestmaili@Gmail.Com");
         loginPage.checkMainPage();
     }
 

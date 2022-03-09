@@ -26,8 +26,9 @@ public class TestSetup {
     public ItemDetailPage itemDetailPage;
     public BasketPage basketPage;
 
-    @Parameters("browser")
+
     @BeforeClass
+    @Parameters("browser")
     public void setup(String browser) {
 
         if (browser.equalsIgnoreCase("chrome")) {

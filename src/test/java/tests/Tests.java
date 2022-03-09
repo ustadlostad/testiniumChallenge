@@ -4,7 +4,6 @@ import com.batur.testiniumchallenge.TestSetup;
 import com.opencsv.exceptions.CsvException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 import utils.Utils;
 
 import java.io.IOException;
